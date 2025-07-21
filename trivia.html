@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>Trivia Page</h1></header>
+  <nav>
+    <a href="index.html">HOME</a> |
+    <a href="portfolio.html">PORTFOLIO</a> |
+    <a href="trivia.html">TRIVIA</a>
+  </nav>
+  <div class="container">
+    <aside class="left">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org" target="_blank">MDN Docs</a></li>
+        <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></li>
+      </ul>
+    </aside>
+    <main>
+      <h2>BMI Calculator</h2>
+      <label>Height (cm): <input id="height" type="number"></label><br>
+      <label>Weight (kg): <input id="weight" type="number"></label><br>
+      <button onclick="calculateBMI()">Calculate</button>
+      <p id="result"></p>
+    </main>
+    <aside class="right">
+      <h3>Contact Me</h3>
+      <form>
+        Name: <input type="text"><br>
+        Email: <input type="email"><br>
+        Message:<br><textarea></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+    </aside>
+  </div>
+  <footer>
+    <p>Created July 2025 | <a href="https://example.com" target="_blank">External Link</a></p>
+  </footer>
+</body>
+</html>

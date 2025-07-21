@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+header, nav, footer {
+  padding: 10px;
+  color: white;
+}
+header { background-color: #f00; }
+nav { background-color: #b6ff00; }
+footer { background-color: #00ff21; }
+
+.container {
+  display: flex;
+}
+.left, .right {
+  width: 20%;
+  padding: 10px;
+}
+.left { background-color: #00ffff; }
+.right { background-color: #0094ff; }
+main {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+}
